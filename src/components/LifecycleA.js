@@ -21,10 +21,10 @@
         render() {
             console.log('LifecycleA render')
             return (
-                <div>
+                <>
                     <div>LifecycleA</div>
                     <LifecycleB />
-                </div>
+                </>
             )
         }
     }

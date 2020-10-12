@@ -16,12 +16,14 @@ import './App.css';
 // import './styles/appStyles.css'
 // import  styles from './styles/appStyles.module.css'
 // import Form from './components/Form'
-import LifecycleA from './components/LifecycleA'
+// import LifecycleA from './components/LifecycleA'
+import ParentComp from './components/ParentComp'
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <ParentComp />
+      {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className = 'error'>Error</h1> */}
       {/* <h1 className = {styles.success}>Success</h1> */}

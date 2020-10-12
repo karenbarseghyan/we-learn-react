@@ -20,9 +20,9 @@ class LifecycleB extends Component {
     render() {
         console.log('LifecycleB render')
         return (
-            <div>
+            <>
                 LifecycleB
-            </div>
+            </>
         )
     }
 }
